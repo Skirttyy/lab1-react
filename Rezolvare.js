@@ -6,8 +6,8 @@ function functie (element) {
     return typeof(element)
 }
 
-numToString = Number.toString(var1)
-stringToNum = Number(var2)
+let numToString = Number.toString(var1)
+let stringToNum = Number(var2)
 console.log(functie(numToString))
 console.log(functie(stringToNum))
 
@@ -149,7 +149,7 @@ console.log(car.year)
  
  // 3.5 Folosiți for...in pentru a itera prin toate proprietățile unui obiect și afișați cheile și valorile acestora.
  
- for (prop in car) {
+ for (let prop in car) {
      console.log(`${prop}: ${car[prop]}`)
  }
  
@@ -460,9 +460,9 @@ asyncPromise().then(console.log).catch(console.log)
 
 // 6.6 Scrieți o funcție asincronă care apelează fucția de la punctul 7.4 și afișează rezultatul.
 
-// export function salutUtilizator(nume) {
-//     return `Salut, ${nume}!`;
-// }
+export function salutUtilizator(nume) {
+    return `Salut, ${nume}!`;
+}
 
 // 6.7 Creați trei funcții care returnează promisiuni și apelează-le în lanț.
 
