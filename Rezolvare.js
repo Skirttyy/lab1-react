@@ -1,15 +1,23 @@
+// 1.1
+
 var var1 = 11
 let var2 = "456"
 const var3 = true
+
+// 1.2
 
 function functie (element) {
     return typeof(element)
 }
 
+// 1.3
+
 let numToString = Number.toString(var1)
 let stringToNum = Number(var2)
 console.log(functie(numToString))
 console.log(functie(stringToNum))
+
+// 1.4
 
 let nume = "Rusu Catalin"
 let varsta = 20
